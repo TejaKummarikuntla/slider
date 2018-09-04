@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.EventDetails">
+
+
+    <ImageView
+        android:id="@+id/DetbandImgID"
+        android:layout_width="wrap_content"
+        android:layout_height="254dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/coffeedrink" />
+
+    <TextView
+        android:id="@+id/DetHeadlinerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/DetbandImgID"
+        android:text="Headliner"
+        android:textColor="#ff212121"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/DetTimingsID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DetHeadlinerID"
+        android:text="Time"
+        android:textColor="#ff212121"
+        android:textStyle="normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/DetSpeakerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DetTimingsID"
+        android:text="Speaker: "
+        android:textColor="#ff212121"
+        android:textStyle="normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="13sp"
+        />
+
+
+    <TextView
+        android:id="@+id/DetIntroID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DetSpeakerID"
+        android:text="Intro: "
+        android:textColor="#ff212121"
+        android:textStyle="normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="13sp"
+        />
+
+</RelativeLayout>

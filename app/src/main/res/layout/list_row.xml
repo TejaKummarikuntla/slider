@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/row_bg"
+    >
+
+    <ImageView
+        android:id="@+id/bandImgID"
+        android:layout_width="wrap_content"
+        android:layout_height="254dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/coffeedrink" />
+    <TextView
+        android:id="@+id/headlinerTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headliner"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#ff212121"
+        android:layout_below="@id/bandImgID"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/venueTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venue"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#ff2e2e2e"
+        android:layout_below="@id/headlinerTVID"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/whenTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="when"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#ff2e2e2e"
+        android:layout_below="@id/venueTVID"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/timeTVID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timings : "
+        android:layout_marginLeft="23dp"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:background="#ff212121"
+        android:layout_below="@id/whenTVID"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+</RelativeLayout>

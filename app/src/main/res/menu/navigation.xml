@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_infoo"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="info" />
+
+    <item
+        android:id="@+id/navigation_schedule"
+        android:icon="@drawable/ic_schedule_black_24dp"
+        android:title="Schedule" />
+
+    <item
+        android:id="@+id/navigation_feed"
+        android:icon="@drawable/ic_view_agenda_black_24dp"
+        android:title="Feed" />
+
+</menu>
